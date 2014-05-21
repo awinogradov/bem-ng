@@ -1,0 +1,9 @@
+{
+    "name": "bem-ng",
+    "dependencies": {
+        "bem-core": "v2.2.1",
+        "angular": "~1.2.16",
+        "angular-ui-router": "~0.2.10"
+    },
+    "devDependencies": {}
+}
