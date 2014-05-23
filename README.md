@@ -6,7 +6,7 @@ Library for using AngularJS MVC Framework in bem-projects.
 
 ### Dependencies
 
-- i-bem and ua blocks [bem-core](https//github.com/bem/bem-core)
+- i-bem and ua blocks from [bem-core](https//github.com/bem/bem-core)
 - [AngularJS Framework](https://angularjs.org/)
 - [angular-ui-router](https://github.com/angular-ui/ui-router)
 
