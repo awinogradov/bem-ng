@@ -10,7 +10,7 @@ Library for using AngularJS MVC Framework in bem-projects.
 - [AngularJS Framework](https://angularjs.org/)
 - [angular-ui-router](https://github.com/angular-ui/ui-router)
 
-### Установка
+### Install
 
 If you want some easy way use [generator-bem](https://github.com/verybigman/generator-bem) for Yeoman.
 Follow link before and read instruction for install and using it. It help you to
