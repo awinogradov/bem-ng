@@ -36,7 +36,7 @@ MAKE.decl('BundleNode', {
     getLevelsMap : function() {
         return {
             'desktop':
-            // bem-core levels without i-bem.js
+            // bem-core levels
             [
                 'common.blocks'
             ].map(function(level){ return path.join(dirs.libs, 'bem-core', level); })
@@ -44,7 +44,9 @@ MAKE.decl('BundleNode', {
             // ng levels
             .concat(
                 [
+                    'libs.blocks',
                     'common.blocks'
+
                 ]
             )
         };

@@ -1,6 +1,6 @@
 {
   "name": "bem-ng",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Library for work with AngularJS in bem-projects",
   "repository": {
     "type": "git",

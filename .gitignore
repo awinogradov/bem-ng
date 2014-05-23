@@ -8,6 +8,6 @@ test/libs
 .DS_Store
 .project
 .bem/cache/
-*.bundles/*/*.*
-!*.bundles/*/*.bemjson.js
-!*.bundles/.bem/*
+*.examples/*/*.*
+!*.examples/*/*.bemjson.js
+!*.examples/.bem/*
