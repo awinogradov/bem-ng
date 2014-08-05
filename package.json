@@ -1,7 +1,7 @@
 {
     "private": true,
     "name": "bem-ng",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Library for using AnguarJS with BEMHTML",
     "homepage": "https://github.com/verybigman/bem-ng",
     "bugs": "https://github.com/verybigman/bem-ng/issues",

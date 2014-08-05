@@ -1,6 +1,6 @@
 {
   "name": "bem-ng",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Library for work with AngularJS in bem-projects",
   "repository": {
     "type": "git",
@@ -15,8 +15,8 @@
     "Anton Winogradov <winogradovaa@gmail.com>"
   ],
   "dependencies": {
-    "bem-core": "v2.2.1",
-    "angular": "~1.2.16",
+    "bem-core": "git://github.com/bem/bem-core.git#v2.4.0",
+    "angular": "~1.2.21",
     "angular-ui-router": "~0.2.10"
 },
   "license": "MIT",
