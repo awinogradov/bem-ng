@@ -67,7 +67,7 @@ from external libs will builds with bem-tools. Static resources you can build wi
 Gulp or Grunt. Example receipt for Gulp you can get from
 [here](https://gist.github.com/verybigman/522f9b4f0fbd08d7753d).
 
-### Autors
+### Authors
 
 - Anton Winogradov ([verybigman](https://github.com/verybigman))
 
