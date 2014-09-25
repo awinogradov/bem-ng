@@ -68,8 +68,7 @@ Two templates on page:
 ### Build
 
 Page skeleton, templates, CSS and JavaScript sources
-from external libs will builds with bem-tools. Static resources you can build with Gulp or Grunt. Example receipt for Gulp you can get from
-[here](https://gist.github.com/verybigman/522f9b4f0fbd08d7753d).
+from external libs will builds with [bem-tools](https://github.com/bem/bem-tools).
 
 ### Authors
 
