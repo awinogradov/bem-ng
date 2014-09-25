@@ -1,7 +1,7 @@
 {
     "private": true,
     "name": "bem-ng",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Library for using AnguarJS with BEMHTML",
     "homepage": "https://github.com/verybigman/bem-ng",
     "bugs": "https://github.com/verybigman/bem-ng/issues",
@@ -26,23 +26,15 @@
         "env": "development"
     },
     "dependencies": {
-        "bem-environ": "~1.4.0",
-        "roole": "~0.9.0",
-        "bem-tools-autoprefixer": "~0.0.3"
+        "bem-environ": "1.4.0"
     },
     "devDependencies": {
-        "bem": "~0.8.1",
-        "bower": "~1.2.8",
-        "borschik": "~0.4.2",
-        "bower-npm-install": "~0.5.2",
-        "bem-cli": "~1.0.1",
-        "gulp": "~3.6.0",
-        "gulp-if": "0.0.5",
-        "gulp-jshint": "~1.5.0",
-        "gulp-csso": "~0.2.7",
-        "gulp-rename": "~1.2.0",
-        "gulp-notify": "~1.2.5",
-        "gulp-concat": "~2.2.0"
+        "bem": "0.9.0",
+        "bem-cli": "1.0.1",
+        "bem-tools-autoprefixer": "0.0.3",
+        "borschik": "1.3.0",
+        "bower": "1.3.11",
+        "bower-npm-install": "0.5.8"
     },
     "scripts": {
         "postinstall": "bower-npm-install --non-interactive",

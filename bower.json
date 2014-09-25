@@ -1,27 +1,28 @@
 {
-  "name": "bem-ng",
-  "version": "0.0.3",
-  "description": "Library for work with AngularJS in bem-projects",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/verybigman/bem-ng.git"
-  },
-  "keywords": [
-    "bem",
-    "angular",
-    "ng"
-  ],
-  "authors": [
-    "Anton Winogradov <winogradovaa@gmail.com>"
-  ],
-  "dependencies": {
-    "bem-core": "git://github.com/bem/bem-core.git#v2.4.0",
-    "angular": "~1.2.21",
-    "angular-ui-router": "~0.2.10"
+    "name": "bem-ng",
+    "version": "0.0.4",
+    "description": "Library for work with AngularJS in bem-projects",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/verybigman/bem-ng.git"
+    },
+    "keywords": [
+        "bem",
+        "angular",
+        "angularjs",
+        "ng"
+    ],
+    "authors": [
+        "Anton Winogradov <winogradovaa@gmail.com>"
+    ],
+    "dependencies": {
+        "bem-core": "git://github.com/bem/bem-core.git#v2.4.0",
+        "angular": "~1.2.21",
+        "angular-ui-router": "~0.2.10"
 },
-  "license": "MIT",
-  "ignore": [
-    "node_modules",
-    "libs"
-  ]
+    "license": "MIT",
+    "ignore": [
+        "node_modules",
+        "libs"
+    ]
 }
