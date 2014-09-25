@@ -1,6 +1,6 @@
 # bem-ng
 
-Библиотека позволяет использовать AngularJS в бэм-проектах.
+Библиотека позволяет использовать AngularJS в БЭМ-проектах.
 
 ### Зависимости
 
@@ -16,12 +16,10 @@
 Он позволит вам очень просто создавать сущности и заиметь в бэкенд
 для тестирования полноценное NodeJS приложение.
 
-Другой способ это ручное подключение по подобию с библиотеками [bem-bl](https//github.com/bem/bem-bl),
-[bem-core](https//github.com/bem/bem-core) и [bem-components](https//github.com/bem/bem-components).
-Используя [bower-npm-install](https://github.com/arikon/bower-npm-install) установить библиотеку из гит
-репозитория или Bower регистра.
+Другой способ это ручное подключение по подобию с библиотеками [bem-bl](https//github.com/bem/bem-bl), [bem-core](https//github.com/bem/bem-core) и [bem-components](https//github.com/bem/bem-components).
+Используя [bower-npm-install](https://github.com/arikon/bower-npm-install), установить библиотеку из Git репозитория или Bower регистра.
 
-Добавить в make.js уровни для сборки блоков, после уровней bem-bl, bem-core и bem-components:
+Добавить в make.js уровни для сборки блоков, после уровней bem-bl или bem-core:
 
 ``` javascript
 [ 'libs/bem-ng/common.blocks', 'libs/bem-ng/libs.blocks' ]
@@ -32,7 +30,10 @@
 Написание директив происходит через моду attrs.
 
 ``` javascript
-{ block: 'alert', attrs: { 'ng-show': 'form.$valid' } }
+{ 
+    block: 'alert', 
+    attrs: { 'ng-show': 'form.$valid' } 
+}
 ```
 
 ### Описание шаблонов
@@ -41,7 +42,12 @@
 собирать куски BEMJSON без обертки в виде блока page.
 
 ``` javascript
-({ block: 'ng-template', content: [ 'Awesome AngularJS template' ] })
+({ 
+    block: 'ng-template', 
+    content: [ 
+        'Awesome AngularJS template' 
+    ] 
+})
 ```
 
 ### Отоборажение шаблонов
@@ -63,11 +69,7 @@
 ```
 ### Сборка
 
-Предполагается, что код AngularJS приложения пишется в директории app и использует
-соглашение о модульной структуре из MEAN стека. Скелет, шаблоны, CSS и JavaScript
-код внешних библиотек собирается с помощью bem-tools. Собрать само приложение можно,
-например используя Gulp или Grunt. Пример рецепта для Gulp заботливо находится
-[тут](https://gist.github.com/verybigman/522f9b4f0fbd08d7753d).
+Скелет, шаблоны, CSS и JavaScript код внешних библиотек собирается с помощью [bem-tools](https://github.com/bem/bem-tools). 
 
 ### Авторы
 
