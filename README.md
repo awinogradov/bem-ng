@@ -2,7 +2,7 @@
 
 This README also available in [russian](https://github.com/verybigman/bem-ng/blob/master/README.ru.md).
 
-Library for using AngularJS MVC Framework in bem-projects.
+Library for using AngularJS in bem-projects.
 
 ### Dependencies
 
@@ -17,14 +17,12 @@ Follow link before and read instruction for install and using it. It help you to
 easy creating AngularJS essences and get NodeJS application for testing.
 
 Another way like connecting with [bem-bl](https//github.com/bem/bem-bl),
-[bem-core](https//github.com/bem/bem-core) and [bem-components](https//github.com/bem/bem-components) libraries.
-Use [bower-npm-install](https://github.com/arikon/bower-npm-install) to install bem-ng from
-GitHub or Bower register.
+[bem-core](https//github.com/bem/bem-core) and [bem-components](https//github.com/bem/bem-components) libraries. Use [bower-npm-install](https://github.com/arikon/bower-npm-install) to install bem-ng from GitHub or Bower register.
 
 Add levels form bem-ng to your make.js file:
 
 ``` javascript
-[ 'libs/bem-ng/common.blocks', 'libs/bem-ng/libs.blocks' ]
+[ 'libs/bem-ng/common.blocks' ]
 ```
 
 ### Directives
@@ -32,7 +30,10 @@ Add levels form bem-ng to your make.js file:
 Use attrs mod for writing AngularJS directives:
 
 ``` javascript
-{ block: 'alert', attrs: { 'ng-show': 'form.$valid' } }
+{ 
+    block: 'alert', 
+    attrs: { 'ng-show': 'form.$valid' } 
+}
 ```
 
 ### Templates
@@ -40,7 +41,12 @@ Use attrs mod for writing AngularJS directives:
 Use __ng-template__ block for creating AngularJS templates on BEMJSON.
 
 ``` javascript
-({ block: 'ng-template', content: [ 'Awesome AngularJS template' ] })
+({ 
+    block: 'ng-template', 
+    content: [ 
+        'Awesome AngularJS template' 
+    ] 
+})
 ```
 
 ### Rendering
@@ -61,10 +67,8 @@ Two templates on page:
 ```
 ### Build
 
-AngularJS application live in app directory and use arrangements from MEAN stack.
 Page skeleton, templates, CSS and JavaScript sources
-from external libs will builds with bem-tools. Static resources you can build with
-Gulp or Grunt. Example receipt for Gulp you can get from
+from external libs will builds with bem-tools. Static resources you can build with Gulp or Grunt. Example receipt for Gulp you can get from
 [here](https://gist.github.com/verybigman/522f9b4f0fbd08d7753d).
 
 ### Authors
